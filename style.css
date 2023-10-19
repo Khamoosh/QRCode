@@ -33,7 +33,7 @@ body {
 .container {
     background: var(--White);
     width: 23%;
-    height: 80%;
+    min-height: 50%;
     margin: 5rem auto;
     padding: 0.8rem;
     border-radius: 1rem;
@@ -55,7 +55,7 @@ body {
     font-size: 1.5rem;
     color: grey;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 1rem 2rem;
 }
 
 @media screen and (max-width:1440px) {}
